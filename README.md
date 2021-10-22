@@ -1,4 +1,4 @@
-# Multi-modality Associative Bridging through Memory. Application in Lip Reading : Cross-modal Memory Augmented Visual Speech Recognition
+# Multi-modality Associative Bridging through Memory. <br>Application in Lip Reading : Cross-modal Memory Augmented Visual Speech Recognition
 This repository contains the official PyTorch implementation of the following paper:
 > **Video Prediction Recalling Long-term Motion Context via Memory Alignment Learning (CVPR 2021 Oral)**<br>
 > Sangmin Lee, Hak Gu Kim, Dae Hwi Choi, Hyung-Il Kim, and Yong Man Ro<br>
