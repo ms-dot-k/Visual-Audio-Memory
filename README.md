@@ -1,7 +1,9 @@
 # Multi-modality Associative Bridging through Memory. <br>Application in Lip Reading : Cross-modal Memory Augmented Visual Speech Recognition
 This repository contains the official PyTorch implementation of the following paper:
-> **Video Prediction Recalling Long-term Motion Context via Memory Alignment Learning (CVPR 2021 Oral)**<br>
-> Sangmin Lee, Hak Gu Kim, Dae Hwi Choi, Hyung-Il Kim, and Yong Man Ro<br>
-> Paper: https://arxiv.org/abs/2104.00924<br>
-> 
-> **Abstract** *Our work addresses long-term motion context issues for predicting future frames. To predict the future precisely, it is required to capture which long-term motion context (e.g., walking or running) the input motion (e.g., leg movement) belongs to. The bottlenecks arising when dealing with the long-term motion context are: (i) how to predict the long-term motion context naturally matching input sequences with limited dynamics, (ii) how to predict the long-term motion context with high-dimensionality (e.g., complex motion). To address the issues, we propose novel motion context-aware video prediction. To solve the bottleneck (i), we introduce a long-term motion context memory (LMC-Memory) with memory alignment learning. The proposed memory alignment learning enables to store long-term motion contexts into the memory and to match them with sequences including limited dynamics. As a result, the long-term context can be recalled from the limited input sequence. In addition, to resolve the bottleneck (ii), we propose memory query decomposition to store local motion context (i.e., low-dimensional dynamics) and recall the suitable local context for each local part of the input individually. It enables to boost the alignment effects of the memory. Experimental results show that the proposed method outperforms other sophisticated RNN-based methods, especially in long-term condition. Further, we validate the effectiveness of the proposed network designs by conducting ablation studies and memory feature analysis. The source code of this work is available.*
+> **Multi-modality Associative Bridging through Memory: Speech Sound Recollected from Face**<br>
+> Minsu Kim, Joanna Hong, Sejin Park, and Yong Man Ro<br>
+> Paper: https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Multi-Modality_Associative_Bridging_Through_Memory_Speech_Sound_Recollected_From_Face_ICCV_2021_paper.pdf<br>
+
+> **CroMM-VSR: Cross-Modal Memory Augmented Visual Speech Recognition**<br>
+> Minsu Kim, Joanna Hong, Sejin Park, and Yong Man Ro<br>
+> Paper: https://ieeexplore.ieee.org/abstract/document/9566778<br>
