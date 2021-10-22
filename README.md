@@ -84,6 +84,7 @@ Descriptions of training parameters are as follows:
 ## Pretrained Models
 You can download the pretrained models.
 - 
+Put it in './data/'
 
 ## Citation
 If you find this work useful in your research, please cite the paper:
