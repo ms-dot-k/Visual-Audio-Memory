@@ -16,7 +16,6 @@ This repository contains the official PyTorch implementation of the following pa
 - opencv-python
 - torchvision
 - torchaudio
-- librosa
 - av
 - tensorboard
 
