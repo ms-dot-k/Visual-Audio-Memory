@@ -23,9 +23,8 @@ This repository contains the official PyTorch implementation of the following pa
 LRW dataset can be downloaded from the below link.
 - https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrw1.html
 
-We don't have to preprocess the video into images.<br>
-We process it in the data_loader.<br>
-The video is cropped with the bounding box \[x1:59, y1:95, x2:195, y2:231\]
+The pre-processing will be done in the data loader.<br>
+The video is cropped with the bounding box \[x1:59, y1:95, x2:195, y2:231\].
 
 ## Training the Model
 `main.py` saves the weights in `--checkpoint_dir` and shows the training logs in `./runs`.
