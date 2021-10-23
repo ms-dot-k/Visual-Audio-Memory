@@ -122,6 +122,10 @@ python main.py \
 |Resnet18 + MS-TCN + Multi-modal Mem   |   85.408    |
 |Resnet18 + Bi-GRU + Multi-modal Mem   |   85.864    |
 
+## AVSR
+You can also use the pre-trained model to perform Audio Visual Speech Recognition (AVSR), since it is trained with both audio and video inputs. <br>
+In order to use AVSR, just use ''tr_fusion'' (refer to the train code) for prediction.
+
 ## Citation
 If you find this work useful in your research, please cite the paper:
 ```
