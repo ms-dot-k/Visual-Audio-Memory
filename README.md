@@ -85,14 +85,42 @@ Descriptions of training parameters are as follows:
 
 ## Pretrained Models
 You can download the pretrained models. <br>
+Put the ckpt in './data/'
 
 **Bi-GRU Backend**
 - https://drive.google.com/file/d/1wkgkRWxu7JM0uaNHmcyCpvVz9OFar8Do/view?usp=sharing <br>
 
+To test the pretrained model, run following command:
+```shell
+# Testing example for LRW
+python main.py \
+--lrw 'enter_data_path' \
+--checkpoint ./data/GRU_Back_Ckpt.ckpt \
+--batch_size 80 --backend GRU\
+--mode test --radius 16 --n_slot 88 \
+--test_aug True --distributed False --dataparallel False \
+--gpu 0
+```
+
 **MS-TCN Backend**
 - https://drive.google.com/file/d/1uHZbmk9fgMqYVfvaoMUe-9XlGvQnXEcS/view?usp=sharing
 
-Put the ckpt in './data/'
+To test the pretrained model, run following command:
+```shell
+# Testing example for LRW
+python main.py \
+--lrw 'enter_data_path' \
+--checkpoint ./data/MSTCN_Back_Ckpt.ckpt \
+--batch_size 80 --backend MSTCN\
+--mode test --radius 16 --n_slot 168 \
+--test_aug True --distributed False --dataparallel False \
+--gpu 0
+```
+
+|       Architecture      |   Acc.   |
+|:-----------------------:|:--------:|
+|Resnet18 + MS-TCN + Multi-modal Mem   |   85.408    |
+|Resnet18 + Bi-GRU + Multi-modal Mem   |   85.864    |
 
 ## Citation
 If you find this work useful in your research, please cite the paper:
