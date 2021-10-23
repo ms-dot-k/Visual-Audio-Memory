@@ -10,7 +10,7 @@ This repository contains the official PyTorch implementation of the following pa
 > Paper: https://ieeexplore.ieee.org/abstract/document/9566778<br>
 -->
 
-<div align="center"><img width="98%" src="img/Img.JPG" /></div>
+<div align="center"><img width="98%" src="img/Img.JPG?raw=true" /></div>
 
 ## Preparation
 
