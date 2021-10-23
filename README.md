@@ -85,8 +85,12 @@ Descriptions of training parameters are as follows:
 
 ## Pretrained Models
 You can download the pretrained models.
-- 
-Put it in './data/'
+Bi-GRU Backend
+- https://drive.google.com/file/d/1wkgkRWxu7JM0uaNHmcyCpvVz9OFar8Do/view?usp=sharing
+MS-TCN Backend
+- https://drive.google.com/file/d/1uHZbmk9fgMqYVfvaoMUe-9XlGvQnXEcS/view?usp=sharing
+
+Put the ckpt in './data/'
 
 ## Citation
 If you find this work useful in your research, please cite the paper:
