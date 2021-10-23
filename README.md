@@ -1,5 +1,5 @@
 # Multi-modality Associative Bridging through Memory. <br>Application in Lip Reading : Cross-modal Memory Augmented Visual Speech Recognition
-This repository contains the official PyTorch implementation of the following papers:
+This repository contains the official PyTorch implementation of the following paper:
 > **Multi-modality Associative Bridging through Memory: Speech Sound Recollected from Face**<br>
 > Minsu Kim, Joanna Hong, Sejin Park, and Yong Man Ro<br>
 > Paper: https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Multi-Modality_Associative_Bridging_Through_Memory_Speech_Sound_Recollected_From_Face_ICCV_2021_paper.pdf<br>
@@ -98,7 +98,7 @@ If you find this work useful in your research, please cite the paper:
   pages={296--306},
   year={2021}
 }
-
+<!---
 @article{kim2021cromm,
   title={CroMM-VSR: Cross-Modal Memory Augmented Visual Speech Recognition},
   author={Kim, Minsu and Hong, Joanna and Park, Se Jin and Ro, Yong Man},
@@ -106,4 +106,5 @@ If you find this work useful in your research, please cite the paper:
   year={2021},
   publisher={IEEE}
 }
+-->
 ```
