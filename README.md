@@ -98,6 +98,7 @@ If you find this work useful in your research, please cite the paper:
   pages={296--306},
   year={2021}
 }
+```
 <!---
 @article{kim2021cromm,
   title={CroMM-VSR: Cross-Modal Memory Augmented Visual Speech Recognition},
@@ -107,4 +108,4 @@ If you find this work useful in your research, please cite the paper:
   publisher={IEEE}
 }
 -->
-```
+
