@@ -43,7 +43,6 @@ python -m torch.distributed.launch --nproc_per_node='number of gpus' main.py \
 --augmentations True --distributed True --dataparallel False\
 --gpu 0,1...
 ```
-```shell
 
 ```shell
 # Data Parallel training example for LRW
