@@ -84,9 +84,9 @@ Descriptions of training parameters are as follows:
 - Refer to `test.py` for the other testing parameters
 
 ## Pretrained Models
-You can download the pretrained models.
+You can download the pretrained models. <br>
 Bi-GRU Backend
-- https://drive.google.com/file/d/1wkgkRWxu7JM0uaNHmcyCpvVz9OFar8Do/view?usp=sharing
+- https://drive.google.com/file/d/1wkgkRWxu7JM0uaNHmcyCpvVz9OFar8Do/view?usp=sharing <br>
 MS-TCN Backend
 - https://drive.google.com/file/d/1uHZbmk9fgMqYVfvaoMUe-9XlGvQnXEcS/view?usp=sharing
 
