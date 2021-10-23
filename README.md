@@ -20,6 +20,7 @@ This repository contains the official PyTorch implementation of the following pa
 - torchaudio
 - av
 - tensorboard
+- pillow
 
 ### Datasets
 LRW dataset can be downloaded from the below link.
