@@ -7,12 +7,6 @@ This repository contains the official PyTorch implementation of the following pa
 > Minsu Kim, Joanna Hong, Sejin Park, and Yong Man Ro<br>
 > Paper: https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Multi-Modality_Associative_Bridging_Through_Memory_Speech_Sound_Recollected_From_Face_ICCV_2021_paper.pdf<br>
 
-<!---
-> **CroMM-VSR: Cross-Modal Memory Augmented Visual Speech Recognition**<br>
-> Minsu Kim, Joanna Hong, Sejin Park, and Yong Man Ro<br>
-> Paper: https://ieeexplore.ieee.org/abstract/document/9566778<br>
--->
-
 <div align="center"><img width="90%" src="img/Img.png?raw=true" /></div>
 
 ## Preparation
@@ -141,13 +135,3 @@ If you find this work useful in your research, please cite the paper:
   year={2021}
 }
 ```
-<!---
-@article{kim2021cromm,
-  title={CroMM-VSR: Cross-Modal Memory Augmented Visual Speech Recognition},
-  author={Kim, Minsu and Hong, Joanna and Park, Se Jin and Ro, Yong Man},
-  journal={IEEE Transactions on Multimedia},
-  year={2021},
-  publisher={IEEE}
-}
--->
-
