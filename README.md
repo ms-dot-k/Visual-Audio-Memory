@@ -13,7 +13,7 @@ This repository contains the official PyTorch implementation of the following pa
 
 ### Requirements
 - python 3.7
-- pytorch 1.6+
+- pytorch 1.6 ~ 1.9
 - torchvision
 - torchaudio
 - av
