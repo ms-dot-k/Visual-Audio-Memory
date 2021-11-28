@@ -99,8 +99,7 @@ class MultiDataset(Dataset):
         ## Audio ##
         if self.augmentations:
             transform = nn.Sequential(
-                torchaudio.transforms.Spectrogram(win_length=400, hop_length=160, power=None, normalized=True), # 100 fps (hop_length 10ms)
-                torchaudio.transforms.ComplexNorm(2),
+                torchaudio.transforms.Spectrogram(win_length=400, hop_length=160, power=2, normalized=True), # 100 fps (hop_length 10ms)
                 torchaudio.transforms.MelScale(n_mels=self.num_mel_bins, sample_rate=16000),
                 torchaudio.transforms.AmplitudeToDB(),
                 CMVN(),
@@ -109,8 +108,7 @@ class MultiDataset(Dataset):
             )
         else:
             transform = nn.Sequential(
-                torchaudio.transforms.Spectrogram(win_length=400, hop_length=160, power=None, normalized=True), #100 fps (hop_length 10ms)
-                torchaudio.transforms.ComplexNorm(2),
+                torchaudio.transforms.Spectrogram(win_length=400, hop_length=160, power=2, normalized=True), #100 fps (hop_length 10ms)
                 torchaudio.transforms.MelScale(n_mels=self.num_mel_bins, sample_rate=16000),
                 torchaudio.transforms.AmplitudeToDB(),
                 CMVN()
