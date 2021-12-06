@@ -114,7 +114,7 @@ class MultiDataset(Dataset):
                 CMVN()
             )
 
-        spec = transform(aud)  # 1, 80, time*100 : C,F,T
+        spec = transform(aud.float())  # 1, 80, time*100 : C,F,T
 
         ## Video ##
         video = video.permute(0, 3, 1, 2)  # T C H W
