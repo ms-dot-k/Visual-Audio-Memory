@@ -117,8 +117,8 @@ python main.py \
 
 |       Architecture      |   Acc.   |
 |:-----------------------:|:--------:|
-|Resnet18 + MS-TCN + Multi-modal Mem   |   85.408    |
-|Resnet18 + Bi-GRU + Multi-modal Mem   |   85.864    |
+|Resnet18 + MS-TCN + Multi-modal Mem   |   85.864    |
+|Resnet18 + Bi-GRU + Multi-modal Mem   |   85.408    |
 
 ## AVSR
 You can also use the pre-trained model to perform Audio Visual Speech Recognition (AVSR), since it is trained with both audio and video inputs. <br>
