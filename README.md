@@ -1,4 +1,4 @@
-# Multi-modality Associative Bridging through Memory. <br>Application in Lip Reading : Cross-modal Memory Augmented Visual Speech Recognition
+# Multi-modality Associative Bridging through Memory. <br>Application in Lip Reading
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/multi-modality-associative-bridging-through/lipreading-on-lrw-1000)](https://paperswithcode.com/sota/lipreading-on-lrw-1000?p=multi-modality-associative-bridging-through)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/multi-modality-associative-bridging-through/lipreading-on-lip-reading-in-the-wild)](https://paperswithcode.com/sota/lipreading-on-lip-reading-in-the-wild?p=multi-modality-associative-bridging-through)
 
