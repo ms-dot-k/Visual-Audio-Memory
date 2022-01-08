@@ -59,7 +59,7 @@ Descriptions of training parameters are as follows:
 - `--batch_size`: batch size  `--epochs`: number of epochs  `--mode`: train / val / test
 - `--augmentations`: whether performing augmentation  `--distributed`: Use DataDistributedParallel  `--dataparallel`: Use DataParallel
 - `--gpu`: gpu for using `--lr`: learning rate `--n_slot`: memory slot size `--radius`: scaling factor for addressing score
-- Refer to `train.py` for the other training parameters
+- Refer to `main.py` for the other training parameters
 
 ## Testing the Model
 To test the model, run following command:
@@ -79,7 +79,7 @@ Descriptions of training parameters are as follows:
 - `--batch_size`: batch size  `--mode`: train / val / test
 - `--test_aug`: whether performing test time augmentation  `--distributed`: Use DataDistributedParallel  `--dataparallel`: Use DataParallel
 - `--gpu`: gpu for using `--lr`: learning rate `--n_slot`: memory slot size `--radius`: scaling factor for addressing score
-- Refer to `test.py` for the other testing parameters
+- Refer to `main.py` for the other testing parameters
 
 ## Pretrained Models
 You can download the pretrained models. <br>
