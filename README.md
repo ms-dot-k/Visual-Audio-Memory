@@ -4,7 +4,7 @@
 
 This repository contains the official PyTorch implementation of the following paper:
 > **Multi-modality Associative Bridging through Memory: Speech Sound Recollected from Face**<br>
-> Minsu Kim, Joanna Hong, Sejin Park, and Yong Man Ro<br>
+> Minsu Kim*, Joanna Hong*, Sejin Park, and Yong Man Ro (\*Equal contribution)<br>
 > Paper: https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Multi-Modality_Associative_Bridging_Through_Memory_Speech_Sound_Recollected_From_Face_ICCV_2021_paper.pdf<br>
 
 <div align="center"><img width="90%" src="img/Img.png?raw=true" /></div>
