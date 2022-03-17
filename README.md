@@ -38,7 +38,7 @@ python -m torch.distributed.launch --nproc_per_node='number of gpus' main.py \
 --checkpoint_dir 'enter_the_path_for_save' \
 --batch_size 80 --epochs 200 \
 --mode train --radius 16 --n_slot 88 \
---augmentations --distributed True \
+--augmentations --distributed \
 --gpu 0,1...
 ```
 
@@ -49,7 +49,7 @@ python main.py \
 --checkpoint_dir 'enter_the_path_for_save' \
 --batch_size 320 --epochs 200 \
 --mode train --radius 16 --n_slot 88 \
---augmentations --dataparallel True \
+--augmentations --dataparallel \
 --gpu 0,1...
 ```
 
@@ -70,7 +70,7 @@ python main.py \
 --checkpoint 'enter_the_checkpoint_path' \
 --batch_size 80 \
 --mode test --radius 16 --n_slot 88 \
---test_aug --dataparallel False \
+--test_aug \
 --gpu 0
 ```
 Descriptions of training parameters are as follows:
