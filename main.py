@@ -46,11 +46,11 @@ def parse_args():
     parser.add_argument("--backend", type=str, default='GRU', help='GRU, MSTCN')
 
     parser.add_argument("--max_timesteps", type=int, default=29)
-    parser.add_argument("--augmentations", default=True)
-    parser.add_argument("--test_aug", default=True)
+    parser.add_argument("--augmentations", default=False, action='store_true')
+    parser.add_argument("--test_aug", default=False, action='store_true')
 
-    parser.add_argument("--dataparallel", default=True)
-    parser.add_argument("--distributed", default=False)
+    parser.add_argument("--dataparallel", default=False, action='store_true')
+    parser.add_argument("--distributed", default=False, action='store_true')
     parser.add_argument("--local_rank", type=int, default=0)
     parser.add_argument("--gpu", type=str, default='0')
     args = parser.parse_args()
