@@ -134,4 +134,12 @@ If you find this work useful in your research, please cite the paper:
   pages={296--306},
   year={2021}
 }
+
+@article{kim2021cromm,
+  title={Cromm-vsr: Cross-modal memory augmented visual speech recognition},
+  author={Kim, Minsu and Hong, Joanna and Park, Se Jin and Ro, Yong Man},
+  journal={IEEE Transactions on Multimedia},
+  year={2021},
+  publisher={IEEE}
+}
 ```
